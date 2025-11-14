@@ -66,3 +66,4 @@ if __name__ == '__main__':
      print(f'marca: {v1._marca}')
      print(f'modelo: {v1._modelo}')
      print(f'anio: {v1._anio}')
+
