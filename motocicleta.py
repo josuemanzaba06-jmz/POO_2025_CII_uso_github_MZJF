@@ -36,7 +36,7 @@ class Motocicleta(Vehiculo):
         '''Realiza un caballito con la motocicleta'''
         if not self._caballito_activo:
             self._caballito_activo = True
-            return "¡Haciendo caballito!  Rueda trasera arriba"
+            return "¡Haciendo caballito!  Rueda Delantera arriba"
         return "Ya estás haciendo un caballito"
 
     def terminar_caballito(self):
@@ -63,9 +63,19 @@ if __name__ == '__main__':
     print(f'cilindraje: {motocicleta1.cilindraje}')
     print(f'motor: {motocicleta1.motor}')
 
+    print(f" Encender moto :{motocicleta1.encender()}")
+    print(f"  Encender motor :{motocicleta1.usar_patada_arranque()}")
+    print(f" Hacer Maniobra: {motocicleta1.hacer_caballito()}")
+
     print('*'.center(80, '*'))
     print(f'marca: {motocicleta2.marca}')
     print(f'modelo: {motocicleta2.modelo}')
     print(f'anio: {motocicleta2.anio}')
     print(f'cilindraje: {motocicleta2.cilindraje}')
     print(f'motor: {motocicleta2.motor}')
+
+    print(f" Encender moto :{motocicleta2.encender()}")
+    print(f"  Encender motor :{motocicleta2.usar_patada_arranque()}")
+    print(f" Hacer Maniobra: {motocicleta2.hacer_caballito()}")
+
+
