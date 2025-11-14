@@ -70,12 +70,23 @@ if __name__ == '__main__':
     print(f'numero_puertas: {automovil1.numero_puertas}')
     print(f'motor: {automovil1.motor}')
 
+    print(f" Encender auto :{automovil1.encender()}")
+    print(f"  Encender motor :{automovil1.motor.encender_motor()}")
+    print(f" Tocar claxon: {automovil1.tocar_claxon()}")
+    print(f" Abrir maletero: {automovil1.abrir_maletero()}")
+
     print('*'.center(80, '*'))
     print(f'marca: {automovil2.marca}')
     print(f'modelo: {automovil2.modelo}')
     print(f'anio: {automovil2.anio}')
     print(f'numero_puertas: {automovil2.numero_puertas}')
     print(f'motor: {automovil2.motor}')
+
+    print(f" Encender auto :{automovil2.encender()}")
+    print(f"  Encender motor :{automovil2.motor.encender_motor()}")
+    print(f" Tocar claxon: {automovil2.tocar_claxon()}")
+    print(f" Abrir maletero: {automovil2.abrir_maletero()}")
+
 
 
 
