@@ -38,7 +38,7 @@ class Motor:
         '''Enciende el motor del vehículo'''
         if not self._encendido:
             self._encendido = True
-            return f"Motor {self._tipo} de {self._potencia}HP encendido. ¡VROOM!"
+            return f"Motor {self._tipo} de {self._potencia}HP encendido. ¡BROOM!"
         return "El motor ya está encendido"
 
     def detener_motor(self):
